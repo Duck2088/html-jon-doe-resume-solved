@@ -45,22 +45,22 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] Initialize playwright and install project packages
-  - [ ] Use `npm i` to install packages
-  - [ ] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
+- [X] Fork the project to your github account
+- [X] Clone the project to your computer
+- [X] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [X] Initialize playwright and install project packages
+  - [X] Use `npm i` to install packages
+  - [X] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
   - [ ] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
+- [X] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
-  - [ ] Use `npm run test` to run all tests in the terminal
-  - [ ] Use `npm run test-part1` to run the tests for the first part of specific requirements in the terminal
-  - [ ] Use `npm run test-part2` to run the tests for the second part of specific requirements in the terminal
-  - [ ] (Optional) Use `npm run test-ui` to run all the tests with GUI
-  - [ ] (Optional) Use `npm run show-report` to see the latest report in the browser
-- [ ] VSCode IDE MUST have 0 code problems listed (spelling problems are fine)
-- [ ] The code MUST be formatted with Prettier
+  - [X] Use `npm run test` to run all tests in the terminal
+  - [X] Use `npm run test-part1` to run the tests for the first part of specific requirements in the terminal
+  - [X] Use `npm run test-part2` to run the tests for the second part of specific requirements in the terminal
+  - [X] (Optional) Use `npm run test-ui` to run all the tests with GUI
+  - [X] (Optional) Use `npm run show-report` to see the latest report in the browser
+- [X] VSCode IDE MUST have 0 code problems listed (spelling problems are fine)
+- [X] The code MUST be formatted with Prettier
 - [ ] Push the changes to the Github repo, when finished.
 - [ ] Submit a .txt file with the Github repo url.
 
@@ -70,42 +70,42 @@ This assignment should prove that a student is able to:
 
 All the tasks in the requirements are related to the index.html file! Consider "Jon Doe" to be replaced with your real first and last name.
 
-- [ ] Create an html file with the name of "index" in the root of the project
-- [ ] Add HTML Boilerplate to the document
-- [ ] Set the document title to be "Jon Doe's resume".
-- [ ] Set the page heading to be "Jon Doe"
-- [ ] Add a section heading with the content of "Talented Frontend developer" that represents the desired role.
-- [ ] Add an image with required and important attributes
-  - [ ] The image path should be `https://randomuser.me/api/portraits/men/20.jpg`. Feel free to change the number in the file name to get a new image.
-  - [ ] The image alternative text should match the page title.
-- [ ] Add a section heading with the content of "About Me".
-- [ ] Add a paragraph of text (50 words at least) as the John Doe's bio. You can use random text for the paragraph content.
-- [ ] Add the section heading "My Skills" with h2 tag
-- [ ] Add the ORDERED list and add 6 random item into it. (Feel free to use the devslopes website to get the real skill names or use some random skill names)
-- [ ] Add the section heading "My Hobbies" with h2 tag
-- [ ] Add the UNORDERED list of 4 hobbies
-- [ ] Add the section heading "Contact Me" with h2 tag
-- [ ] Add the table of two columns and 4 rows. The first column for every row is the table header with the service name. The second column is for the value.
-- [ ] Add Discord as a service and your discord's real username as a value to the table.
-- [ ] Add LinkedIn as a service and your linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
-- [ ] Add Email as a service and your real email as the value. Make it to be a link that starts the new email message app.
-- [ ] Add Github as a service and use your real github username as a value. Make the value to be a link that leads to your github profile in a new browser tab.
-- [ ] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p1-solved-mockup.png).
+- [X] Create an html file with the name of "index" in the root of the project
+- [X] Add HTML Boilerplate to the document
+- [X] Set the document title to be "Jon Doe's resume".
+- [X] Set the page heading to be "Jon Doe"
+- [X] Add a section heading with the content of "Talented Frontend developer" that represents the desired role.
+- [X] Add an image with required and important attributes
+  - [X] The image path should be `https://randomuser.me/api/portraits/men/20.jpg`. Feel free to change the number in the file name to get a new image.
+  - [X] The image alternative text should match the page title.
+- [X] Add a section heading with the content of "About Me".
+- [X] Add a paragraph of text (50 words at least) as the John Doe's bio. You can use random text for the paragraph content.
+- [X] Add the section heading "My Skills" with h2 tag
+- [X] Add the ORDERED list and add 6 random item into it. (Feel free to use the devslopes website to get the real skill names or use some random skill names)
+- [X] Add the section heading "My Hobbies" with h2 tag
+- [X] Add the UNORDERED list of 4 hobbies
+- [X] Add the section heading "Contact Me" with h2 tag
+- [X] Add the table of two columns and 4 rows. The first column for every row is the table header with the service name. The second column is for the value.
+- [X] Add Discord as a service and your discord's real username as a value to the table.
+- [X] Add LinkedIn as a service and your linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
+- [X] Add Email as a service and your real email as the value. Make it to be a link that starts the new email message app.
+- [X] Add Github as a service and use your real github username as a value. Make the value to be a link that leads to your github profile in a new browser tab.
+- [X] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p1-solved-mockup.png).
 
 ### Part 2: Testing the magic of id and class attributes
 
-- [ ] In the head section connect the CSS file, available by the following path: `./css/styles.css`.
-- [ ] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
-- [ ] The page heading should have the id of "candidate-name"
-- [ ] The desired role section heading should the id of "candidate-desired-role"
-- [ ] The "About me" section heading should have an id of "about-me".
-- [ ] The image should have the id of "candidate-image"
-- [ ] The bio paragraph should have a class name of "candidate-bio"
-- [ ] The skills section heading should have the id of "skills"
-- [ ] The skills list should have the id of "skills-list"
-- [ ] The Hobbies section heading should have the id of "hobbies"
-- [ ] The hobbies list should have the id of "hobbies-list"
-- [ ] The contacts section heading should have the id of "contacts"
-- [ ] The contacts table should have a class name of "contacts-table".
-- [ ] The body should have a class name of "fancy-body".
-- [ ] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p2-solved-mockup.png).
+- [X] In the head section connect the CSS file, available by the following path: `./css/styles.css`.
+- [X] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
+- [X] The page heading should have the id of "candidate-name"
+- [X] The desired role section heading should the id of "candidate-desired-role"
+- [X] The "About me" section heading should have an id of "about-me".
+- [X] The image should have the id of "candidate-image"
+- [X] The bio paragraph should have a class name of "candidate-bio"
+- [X] The skills section heading should have the id of "skills"
+- [X] The skills list should have the id of "skills-list"
+- [X] The Hobbies section heading should have the id of "hobbies"
+- [X] The hobbies list should have the id of "hobbies-list"
+- [X] The contacts section heading should have the id of "contacts"
+- [X] The contacts table should have a class name of "contacts-table".
+- [X] The body should have a class name of "fancy-body".
+- [X] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p2-solved-mockup.png).
